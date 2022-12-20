@@ -1,0 +1,24 @@
+<html>
+    <script>
+        /* 
+            setItem(key,value)      : 저장
+            getItem(key)            : 읽어오기
+            removeItem(key)         : 삭제
+            setItem(key,value)      : 같은이름이면 업데이트
+            clear()                 : 저장소에 있는 모든 정보 삭제
+        */
+        localStorage.setItem("key","asdfasdf");
+        console.log(localStorage.getItem("key"))
+
+        setTimeout(()=>{
+            localStorage.removeItem("key");
+            console.log(localStorage.getItem("key"))
+
+            setTimeout(()=>{
+                console.log(localStorage.getItem("key"))
+                console.log(localStorage.getItem("token"))
+            },10000)
+        },10000)
+    </script>
+
+</html>

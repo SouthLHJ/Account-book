@@ -1,0 +1,44 @@
+1. 로그인 화면
+    client -> fetch -> server api/login
+    /api/login (post)
+
+    res.json으로 응답을 서로 왔다갔다.
+
+2. npm init
+
+
+3. npm i cors
+
+
+4. API = 
+    /api/account
+            /register [POST] (회원가입)
+             req :email,   password ,   name,    nick ,    gender,    birth,    createdAt
+             res :{result:true/false , message : 실패원인}
+            
+            /auth [POST] (로그인)
+             req : {email,password}
+             res : {result : true/false}
+
+
+chartjs
+https://www.chartjs.org/docs/latest/samples/line/multi-axis.html
+chartjs-react
+https://react-chartjs-2.js.org/'
+
+
+
+배포
+aws
+->설치
+->원격데스크톱 (window 서버 하나 생성)
+
+
+
+->server : npm start
+->client : npm run build => build 폴더 생성 된걸 aws 클라우드에 업로드 (원격 데스크톱으로 실행된 새로운 window에) 
+
+
+client 폴더에서
+ npm i -g serve 다운후 
+ serve -l 80 -s build (cd client에서 )

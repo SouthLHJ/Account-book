@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  margin: 10px  0;
+}
+/* 로그인 */
+.login.btn.register{
+  margin: 5px 0 ;
+  width: 100%;
+}
+
+.login.btn.login{
+  margin: 5px 0 ;
+  width: 100%;
+}
+
+/* 회원가입 */
+.registerSelect{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.register.form-check{
+  display: inline-block;
+  margin: 0 5px;
+}
+.register.form-select{
+  display: inline-block;
+  width: 31%;
+}
+
+/* 히스토리 */
+.search.Select{
+  width: 45%;
+}
+
+.search.selectArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search.list{
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.searchSwithArea{
+  display: flex; 
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.srchList{
+  font-size: 13px;
+}
+
+
+.writeArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* 리포트 */
+.reportSrchDateArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.reportSearchDate{
+  width: 49%;
+}
+
+.reportListArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.report.table{
+  width: 100%;
+}
+
+.reportChart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+

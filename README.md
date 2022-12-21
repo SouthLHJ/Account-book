@@ -1,10 +1,25 @@
 ## 간단 소개
+
     간단하게 본인의 지출 및 수입을 기록하여 월 별로 차트 및 표로 정리해서 보여줍니다.
 
     월 별로 검색이 가능하며, 표에서 수정을 가능하게 만들었습니다.
 
 ## 사용 기술 및 라이브러리
 
-1. React, Express
-2. MongoDB, Mongoose
-3. Bootstrap, Chart-js, Router-dom
+- React, Express
+- MongoDB, Mongoose
+- Bootstrap, Chart-js, Router-dom
+
+## 담당한 기능
+
+- 회원 가입 시, 비밀번호를 암호화 구현.
+- 로그인 시, 토큰을 발급 기능 구현.
+- react-chart-js를 이용하여 차트 기능 사용.
+- 소비 기록 및 검색 기능 구현.
+- edit mode를 만들어주어 표 자체에서 수정하고 종료하면 기록하는 기능 구현.
+
+## 깨달은 점
+
+- BootStrap이 제공하는 모듈을 이용하여 UI를 꾸밀 수 있다는 것을 알았다.
+- Chartjs를 이용하여 기록된 데이터를 차트로 보여줄 수 있다.
+- Router-dom을 이용하여 React이지만, 페이지 분할을 할 수 있다.
